@@ -1,0 +1,201 @@
+/*
+*
+*
+Если слайдер в нутри Flex контейнера или сам Flex контейнер то контейнеру нужно ставить min-width:0; 
+data-lazy="lazy" для img ленивая загрузка применять к блокам img
+*
+*
+*/
+/* Слайдер */
+
+.slick-slider {}
+
+/* Слайдер запущен */
+.slick-slider.slick-initialized {}
+
+/* Слайдер с точками */
+.slick-slider.slick-dotted {}
+
+/* Ограничивающая оболочка */
+.slick-list {
+}
+
+/* Лента слайдов */
+.slick-track {
+ 
+}
+/* Слайд */
+.slick-slide {}
+
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {}
+
+/* Слайд основной */
+.slick-slide.slick-current {}
+
+/* Слайд по центру */
+.slick-slide.slick-center {}
+
+/* Клонированный слайд */
+.slick-slide.slick-cloned {}
+
+/* Общие для стрелок */
+.slick-arrow {}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev {}
+
+/* Стрелка вправо */
+.slick-arrow.slick-next {}
+
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {}
+
+/* Точки (булиты) */
+.slick-dots {}
+
+.slick-dots li {}
+
+/* Активная точка */
+.slick-dots li.slick-active {}
+
+/* Активная кнопка */
+.slick-dots li.slick-active button {}
+
+/* Элемент точки */
+.slick-dots li button {}
+
+/*******************************************************************************************************************************/
+.header__swiper  {
+ margin-top: 0.5em;
+ height: 100%;
+}
+
+
+/* Лента слайдов */
+.header__swiper .slick-track {
+ display: flex;
+ height: 100%;
+}
+ .header__swiper .slick-list{
+    height : 80vh;
+ }
+ /* Слайд активный (показывается) */
+.header__swiper.slick-active {
+}
+
+/* Точки (булиты) */
+.header__swiper .slick-dots {
+    font-size: 0;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+    left: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Элемент точки */
+.header__swiper .slick-dots li button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+    margin-right: 15px;
+}
+
+/* Элемент точки  Активная точка */
+.header__swiper .slick-dots li.slick-active button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgb(17, 15, 15);
+
+}
+
+/* при centerMode true добавляется классslick-center к центральномму слайду */
+
+/* 
+.slider__item{
+    opacity: 0.1;
+    text-align: center;
+    transition: none;
+}
+.slider__item.slick-center{
+    opacity: 1;
+    transition: none;
+}
+  */
+
+
+  
+.klienti.slick-slider {}
+
+/* Слайдер запущен */
+.klienti.slick-slider.slick-initialized {}
+
+/* Слайдер с точками */
+.klienti.slick-slider.slick-dotted {}
+
+/* Ограничивающая оболочка */
+.klienti.slick-list {
+    width: 100vw;
+    border: 2px solid red;
+}
+
+/* Лента слайдов */
+.klienti.slick-track {
+  
+ 
+}
+/* Слайд */
+.klienti.slick-slide {}
+
+/* Слайд активный (показывается) */
+.klienti.slick-slide.slick-active {}
+
+/* Слайд основной */
+.klienti.slick-slide.slick-current {}
+
+/* Слайд по центру */
+.klienti.slick-slide.slick-center {}
+
+/* Клонированный слайд */
+.klienti.slick-slide.slick-cloned {}
+
+/* Общие для стрелок */
+.klienti.slick-arrow {}
+
+/* Стрелка влево */
+.klienti.slick-arrow.slick-prev {}
+
+/* Стрелка вправо */
+.klienti.slick-arrow.slick-next {}
+
+/* Стрелка не активная */
+.klienti.slick-arrow.slick-disabled {}
+
+/* Точки (булиты) */
+.klienti.slick-dots {}
+
+.klienti.slick-dots li {}
+
+/* Активная точка */
+.klienti.slick-dots li.slick-active {}
+
+/* Активная кнопка */
+.klienti.slick-dots li.slick-active button {}
+
+/* Элемент точки */
+.klienti.slick-dots li button {}
+
+/*******************************************************************************************************************************/
